@@ -21,9 +21,7 @@ textEditor := "notepad.exe"
 #SingleInstance, Force
 
 ; Open Terminal
-#Enter::
-	Run, % terminal
-Return
+#Enter::Run, % terminal
 
 ; Keypirinha integration
 #Space::Send, {Ctrl Down}{LWin Down}k{LWin Up}{Ctrl Up}
